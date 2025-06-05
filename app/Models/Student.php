@@ -23,7 +23,7 @@ class Student extends Model
         'date_of_birth' => 'date',
     ];
     
-    // Add this relationship method
+    // relationship method
     public function city()
     {
         return $this->belongsTo(City::class);
